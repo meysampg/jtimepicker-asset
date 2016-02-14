@@ -13,7 +13,7 @@
     "require": {
         "yiisoft/yii2": "*",
         "bower-asset/jquery-ui": "1.11.*@stable",
-        "meysampg/jqueryui-jtimepicker-addon": "dev-master"
+        "meysampg/jqueryui-jtimepicker-addon": "^1.5"
     },
     "autoload": {
         "psr-4": {
