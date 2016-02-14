@@ -1,0 +1,23 @@
+{
+    "name": "meysampg/jtimepicker-asset",
+    "description": "Asset bundle for jtimepicker addon.",
+    "type": "yii2-extension",
+    "keywords": ["yii2","asset","jtimepicker"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Meysam P.G.",
+            "email": "p.g.meysam@gmail.com"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "*",
+        "bower-asset/jquery-ui": "1.11.*@stable",
+        "meysampg/jqueryui-jtimepicker-addon": "dev-master"
+    },
+    "autoload": {
+        "psr-4": {
+            "meysampg\\assets\\": ""
+        }
+    }
+}
